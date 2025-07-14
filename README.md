@@ -4,8 +4,7 @@ Một công cụ đơn giản, tiện lợi giúp các bạn học sinh và ph�
 🔗 Xem trực tiếp
 Bạn có thể trải nghiệm trang web ngay tại đây:
 
-[https://your-username.github.io/tra-cuu-diem-thi-2025/](https://kiemtradiemthithptqg.github.io/kiemtradiemthithptqg/)
-
+[v](https://kiemtradiemthithptqg.github.io/kiemtradiemthithptqg/)
 (Lưu ý: Thay thế your-username bằng tên người dùng GitHub của bạn)
 
 ✨ Các tính năng nổi bật
