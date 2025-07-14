@@ -102,6 +102,7 @@
             </div>
             
             <!-- Phần ủng hộ dự án -->
+          <!-- Phần ủng hộ dự án -->
             <div class="pt-6 border-t border-gray-200">
                 <details class="group">
                     <summary class="flex justify-center items-center font-medium text-gray-600 hover:text-indigo-600 cursor-pointer transition">
@@ -123,6 +124,37 @@
                 </details>
             </div>
         </footer>
+
+        <!-- PHẦN BÌNH LUẬN (ĐẶT Ở CUỐI CÙNG) -->
+        <section aria-labelledby="comment-heading" class="mt-10 pt-6 border-t border-gray-200">
+            <h2 id="comment-heading" class="text-xl font-bold text-gray-800 text-center mb-4">Bình luận và góp ý</h2>
+            <div class="giscus-container">
+                <!-- 
+                  HƯỚNG DẪN CÀI ĐẶT BÌNH LUẬN:
+                  1. Truy cập https://giscus.app/vi
+                  2. Điền tên repo GitHub của bạn (ví dụ: ten-github/ten-repo).
+                  3. Bật tính năng "Discussions" trong repo của bạn (Settings -> General -> Features -> Discussions).
+                  4. Chọn một category trong Discussions để lưu bình luận (ví dụ: General).
+                  5. Copy các giá trị được tạo ra từ trang Giscus và dán vào các thuộc tính data-* dưới đây.
+                -->
+                <script src="https://giscus.app/client.js"
+                        data-repo="[NHẬP_TÊN_REPO_CỦA_BẠN_VÀO_ĐÂY]"
+                        data-repo-id="[NHẬP_REPO_ID_VÀO_ĐÂY]"
+                        data-category="[NHẬP_TÊN_CATEGORY_THẢO_LUẬN_VÀO_ĐÂY]"
+                        data-category-id="[NHẬP_CATEGORY_ID_VÀO_ĐÂY]"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="top"
+                        data-theme="light"
+                        data-lang="vi"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </section>
+
     </main>
 
     <script>
